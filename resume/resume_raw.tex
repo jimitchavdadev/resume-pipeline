@@ -1,0 +1,106 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.5in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{charter}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+
+\definecolor{sectioncolor}{HTML}{5B89A8}
+
+\newcommand{\resumesection}[1]{%
+  \vspace{6pt}%
+  \noindent{\color{sectioncolor}\bfseries\large\MakeUppercase{#1}}%
+  \vspace{2pt}%
+  \hrule%
+  \vspace{5pt}%
+}
+
+\setlist[itemize]{leftmargin=12pt, noitemsep, topsep=2pt, parsep=0pt, partopsep=0pt}
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+  {\Huge\bfseries Jimit Chavda} \\
+  \vspace{4pt}
+  {\small +91 9428688991 \ \textbullet\ \href{mailto:jimitchavdadev@gmail.com}{jimitchavdadev@gmail.com} \ \textbullet\ \href{https://portfolio-website-rnbw.onrender.com/}{Portfolio} \ \textbullet\ \href{https://www.linkedin.com/in/jimit-chavda/}{LinkedIn} \ \textbullet\ \href{https://github.com/jimitchavdadev}{GitHub}}
+\end{center}
+
+\resumesection{WORK EXPERIENCE}
+
+\noindent \textbf{Tatvic} \hfill \textbf{Ahmedabad, Gujarat, India}\par
+\noindent \textit{Technical Trainee} \hfill \textit{Jan 2026 -- Present}\par
+\begin{itemize}
+  \item Developed \textbf{5+ Google Workspace automations} as automation developer, streamlining cross-team analytical workflows end-to-end.
+\end{itemize}
+\vspace{4pt}
+
+\noindent \textbf{HisabOK} \hfill \textbf{Remote}\par
+\noindent \textit{Founding Full Stack Intern} \hfill \textit{Nov 2024 -- Nov 2025}\par
+\begin{itemize}
+  \item \textbf{0 to production} -- sole founding engineer architecting the entire mobile app and backend across a 13-month engagement.
+  \item \textbf{40\%} faster API response times and \textbf{35\%} app load time reduction via backend query optimisation and phone-side performance tuning.
+  \item \textbf{4+} technologies owned end-to-end across React Native, Node.js, Java with zero handoff dependency.
+\end{itemize}
+\vspace{4pt}
+
+\noindent \textbf{White Carbon Motors Private Limited} \hfill \textbf{Gandhinagar, Gujarat, India}\par
+\noindent \textit{Mobile Application Developer Intern} \hfill \textit{May 2025 -- Jul 2025}\par
+\begin{itemize}
+  \item \textbf{2 production apps} built and shipped in parallel as the sole React Native developer within a 3-month timeline.
+  \item \textbf{0 additional engineers} -- independently owned full feature lifecycle from UI architecture to Redux state management across both apps.
+\end{itemize}
+
+\resumesection{ACHIEVEMENTS}
+\begin{itemize}
+  \item \textbf{80\%} processing time reduction and \textbf{99\%} cost cut via internal automations built within first months at Tatvic.
+  \item \textbf{100\%} of marketing team's manual workflow replaced by a multi-agentic AI automation system built independently.
+\end{itemize}
+
+\resumesection{SKILLS}
+\noindent\textbf{Languages \& Frameworks:} Java, Spring Boot, Rust, C++, Python, Dart, Flutter, React, React Native, TypeScript, Node.js, Express\par
+\noindent\textbf{Databases \& Infrastructure:} PostgreSQL, MongoDB, Redis, RocksDB, Docker, JWT, Prisma\par
+\noindent\textbf{AI \& ML:} LangChain, RAG Pipelines, Vector Databases (FAISS/Chroma), Ollama (Llama 3), BM25, Weka ML, Multi-Agent Systems\par
+\noindent\textbf{Tools \& Practices:} REST APIs, Microservices, Multithreading, Async Programming (Tokio), DID/Cryptography, SDL2\par
+
+\resumesection{EDUCATION}
+\noindent \textbf{Pandit Deendayal Energy University} \hfill \textbf{Gandhinagar, India}\par
+\noindent \textit{B.Tech [Computer Science / Engineering]} \hfill \textit{2022 -- Present}\par
+
+\resumesection{PROJECTS}
+
+\noindent \textbf{med-scheduler Suite: Full-Stack Clinic Booking Platform} \hfill \href{https://github.com/jimitchavdadev/med-scheduler}{GitHub}\par
+\begin{itemize}
+  \item \textbf{2 integrated services} -- Angular/RxJS frontend and Spring Boot/Node.js backend with JWT auth and PostgreSQL, delivered as a single deployable platform.
+  \item \textbf{Real-time} doctor schedule sync and patient notification engine handling concurrent booking conflicts across multiple practitioners.
+\end{itemize}
+
+\noindent \textbf{Parallel-Log-Analyzer: Multithreaded C++ SIEM Tool} \hfill \href{https://github.com/jimitchavdadev/Parallel-Log-Analyzer}{GitHub}\par
+\begin{itemize}
+  \item \textbf{4$\times$} faster log analysis vs.\ sequential processing by parsing multi-GB server log files using C++ \texttt{std::thread} concurrency.
+  \item \textbf{Real-time} intrusion detection flagging across high-volume log streams with pattern-matched alert rules. Stack: C++, Standard Library.
+\end{itemize}
+
+
+\noindent \textbf{Insuria: Real-Time Insurance Underwriting Microservice} \hfill \href{https://github.com/jimitchavdadev/Insuria}{GitHub}\par
+\begin{itemize}
+  \item \textbf{1,000+} applications/min processed at sub-100ms latency combining Drools rules engine with Weka ML models for instant approvals.
+  \item \textbf{45\%} reduction in manual underwriting review load in simulation benchmarks. Stack: Java, Spring Boot, PostgreSQL.
+\end{itemize}
+
+\noindent \textbf{MultiPDF Chatbot: Production RAG Document Assistant} \hfill \href{https://github.com/jimitchavdadev/MultiPDF_Chatbot}{GitHub}\par
+\begin{itemize}
+  \item \textbf{88\%} answer relevance on internal test sets via a LangChain RAG pipeline over multi-document corpora using FAISS/Chroma and Llama 3.
+  \item \textbf{Multi-PDF} ingestion with real-time conversational Q\&A. Stack: Python, LangChain, Vector DB, Streamlit.
+\end{itemize}
+
+\end{document}

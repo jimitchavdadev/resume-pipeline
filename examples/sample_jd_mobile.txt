@@ -1,0 +1,15 @@
+Job Title: Mobile Application Engineer (React Native / Flutter)
+Company: FinTech Disruptors
+Location: Remote
+
+We are looking for an experienced Mobile Application Engineer to build high-performance mobile applications.
+Responsibilities:
+- Build cross-platform mobile apps using React Native and Flutter.
+- Optimize mobile load times, phone-side memory, and offline caching.
+- Integrate REST APIs, state management (Redux / Provider), and biometric authentication.
+- Work closely with backend teams on Node.js and PostgreSQL.
+
+Requirements:
+- Strong experience with React Native, Flutter, Dart, TypeScript.
+- Deep understanding of mobile performance tuning, Redux, and mobile security (biometrics/fingerprint).
+- Experience with full feature lifecycle from design to App Store / Play Store release.

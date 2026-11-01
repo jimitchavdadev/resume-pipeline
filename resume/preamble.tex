@@ -1,0 +1,28 @@
+% Preamble: Packages, formatting, and custom macro definitions
+\usepackage[letterpaper,margin=0.5in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{charter}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+
+\definecolor{sectioncolor}{HTML}{5B89A8}
+
+\newcommand{\resumesection}[1]{%
+  \vspace{6pt}%
+  \noindent{\color{sectioncolor}\bfseries\large\MakeUppercase{#1}}%
+  \vspace{2pt}%
+  \hrule%
+  \vspace{5pt}%
+}
+
+\setlist[itemize]{leftmargin=12pt, noitemsep, topsep=2pt, parsep=0pt, partopsep=0pt}
+\pagestyle{empty}

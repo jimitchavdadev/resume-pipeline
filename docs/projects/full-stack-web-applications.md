@@ -1,0 +1,20 @@
+# Full-Stack & Web Applications
+
+Total Projects: **14**
+
+| Project | Purpose | Tech Stack | Link |
+| :--- | :--- | :--- | :--- |
+| **upteky_frontend** | User-facing responsive web interface for the Upteky platform built with modern React. | JavaScript, HTML, TypeScript, CSS | [GitHub](https://github.com/jimitchavdadev/upteky_frontend) |
+| **ferris-folio** | Rust-powered personal portfolio website showcasing systems projects, benchmarks, and interactive demos. |  | [GitHub](https://github.com/jimitchavdadev/ferris-folio) |
+| **echo-chamber** | High-throughput real-time WebSocket chat and broadcast server with interactive client UI. | Go, TypeScript, JavaScript, CSS | [GitHub](https://github.com/jimitchavdadev/echo-chamber) |
+| **LMS-Nexus** | Modern Learning Management System providing student registration, course tracking, and grading workflows. | Python | [GitHub](https://github.com/jimitchavdadev/LMS-Nexus) |
+| **med-scheduler-app** | Full-stack clinic booking platform pairing Spring Boot backend services with Angular medical dashboard. | Java, TypeScript, HTML, CSS, Spring Boot, Angular, PostgreSQL | [GitHub](https://github.com/jimitchavdadev/med-scheduler-app) |
+| **med-scheduler** | Angular single-page application for healthcare appointment booking and real-time practitioner schedule management. | TypeScript, CSS, HTML, Angular, RxJS | [GitHub](https://github.com/jimitchavdadev/med-scheduler) |
+| **ecommerce-platform** | Full-stack scalable multi-tenant e-commerce platform monorepo powered by Turborepo, Next.js, and Node.js. | Dockerfile, JavaScript, TypeScript, CSS | [GitHub](https://github.com/jimitchavdadev/ecommerce-platform) |
+| **FinBro** | Finbro: A personal finance manager app built with Flutter and a TypeScript backend. It features phone-based auth, expense tracking, and transaction history with a pull-to-refresh and local caching for offline access. Secure, efficient, and user-friendly. | TypeScript, Shell, Dart, Makefile, Flutter | [GitHub](https://github.com/jimitchavdadev/FinBro) |
+| **InvestTrack** | InvestTrack is a full-stack investment app built with Flutter and a Node.js/PostgreSQL backend. It features secure, token-based auth, a dynamic dashboard for portfolio tracking, transaction management, and real-time market news. A showcase of a complete and modular development. | JavaScript, Shell, Dart, Flutter, Node.js, PostgreSQL | [GitHub](https://github.com/jimitchavdadev/InvestTrack) |
+| **Financial-Tracker** | 💰 A full-stack personal finance dashboard built with React, TypeScript, Express, and Supabase. Track expenses, set savings goals, manage investments, and gain insights into your financial habits—all in one sleek, responsive UI. | Shell, JavaScript, HTML, CSS | [GitHub](https://github.com/jimitchavdadev/Financial-Tracker) |
+| **X-Clone** | A sleek, modern clone of X (formerly Twitter) built with React, Tailwind and Vite. Features real-time posting, user authentication, likes, follows, and more. Scalable and responsive design for web and mobile. Perfect for learning social media app architecture. | JavaScript, HTML, CSS, TypeScript | [GitHub](https://github.com/jimitchavdadev/X-Clone) |
+| **breach-frontend** | Security monitoring and data breach notification frontend dashboard visualizing credential leaks. | JavaScript, HTML, TypeScript, CSS | [GitHub](https://github.com/jimitchavdadev/breach-frontend) |
+| **Student_Personal_Manager** | Comprehensive student productivity dashboard for managing coursework deadlines, grades, and schedules. | JavaScript, HTML, TypeScript, CSS | [GitHub](https://github.com/jimitchavdadev/Student_Personal_Manager) |
+| **Study_Resource_Finder** | Study Resource Finder 📚✨ A web app to discover study materials like videos, PDFs, articles, and research papers. Features search, filtering, sorting, bookmarking, and AI-based recommendations. Built with **React, Node.js, Firebase, and Tailwind CSS**. 🚀 Open-source and contributor-friendly! 🤝 | JavaScript, HTML, TypeScript, CSS | [GitHub](https://github.com/jimitchavdadev/Study_Resource_Finder) |

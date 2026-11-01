@@ -1,0 +1,19 @@
+{
+  "name": "resume-pipeline",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "bun run src/index.ts build",
+    "tailor": "bun run src/tailor-cli.ts",
+    "validate": "bun run src/index.ts validate",
+    "clean": "bun run src/index.ts clean",
+    "typecheck": "bun check"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}

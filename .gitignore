@@ -1,0 +1,35 @@
+# dependencies (bun install)
+node_modules
+
+# binaries
+bin/
+*.exe
+
+# output
+out
+dist
+*.tgz
+*.pdf
+
+# code coverage
+coverage
+*.lcov
+
+# logs
+logs
+*.log
+
+# dotenv environment variable files
+.env
+.env.*
+!.env.example
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# IDEs & OS files
+.idea
+.vscode
+.DS_Store

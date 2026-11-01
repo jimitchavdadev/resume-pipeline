@@ -1,0 +1,19 @@
+Job Title: Senior AI Systems & Infrastructure Engineer
+Company: Cerebras / Scaled AI Labs
+Location: Remote / Hybrid
+
+About the Role:
+We are seeking a high-agency Software Engineer to design and deploy high-throughput AI retrieval and inference systems. You will work on production RAG pipelines, local LLM deployment, and high-performance microservices.
+
+Key Responsibilities:
+- Build and optimize low-latency RAG architectures over multi-document corpora.
+- Implement hybrid search combining sparse lexical retrieval (BM25) and dense vector embeddings (FAISS/Qdrant/Chroma).
+- Deploy local and open-source models (Llama 3, Mistral) with low-overhead inference engines.
+- Architect robust microservices in Python or Java (Spring Boot) and C++ with strict SLA benchmarks (< 100ms latency).
+- Design concurrency-safe data ingestion pipelines handling concurrent requests.
+
+Required Skills:
+- Proficiency in Python, C++, or Java/Spring Boot.
+- Deep hands-on experience with LangChain, Vector Databases (FAISS, Qdrant, Chroma), and RAG workflows.
+- Strong fundamentals in multithreading, concurrency, and systems performance tuning.
+- Experience with PostgreSQL, Docker, and REST API development.
